@@ -20,7 +20,7 @@
 
 .tbl {
     border-collapse: collapse;
-    width: 60%;
+    width: 85%;
     font-family: Tahoma, Arial, Serif;
     border-radius:2px;
     }
@@ -62,6 +62,7 @@
      
      p{
         cursor: default;
+        padding: 5px;
      }
      .vendor{
         background-color: #FFFFCC;

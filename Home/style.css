@@ -14,6 +14,10 @@
     padding: 10px;
 }
 
+.headings{
+    cursor: default;
+}
+
 .main-container{
     display: flex;
     justify-content: center;
@@ -40,14 +44,21 @@
     border: 2px solid gray;
     }
 
+    .location-notes, .location{
+        cursor: default;
+    }
+
     .logo-box{
         overflow-x: scroll;
         overflow-y: hidden;
         white-space: nowrap;
+        padding: 5px;
     }
 
     .tbl img:hover{
         scale: 0.9;
+        border-radius: 20%;
+        transition: ease-out 5s;
     }
 
     .tbl tr{
@@ -111,6 +122,11 @@
         opacity: 0.8;
      }
 
-     footer a{
+     footer a, .list-link{
         text-decoration: none;
+        color: rgb(89, 69, 244);
+     }
+
+     .list-link:hover{
+        color: rgb(234, 53, 53);
      }
