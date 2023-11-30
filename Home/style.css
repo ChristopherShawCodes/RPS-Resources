@@ -41,8 +41,9 @@
     }
 
     .logo-box{
-        display: flex;
-        overflow: scroll;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
     }
 
     .tbl img:hover{
