@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.usage-title{
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.home{
+    text-decoration: none;
+    font-size: 30px;
+    color: Grey;
+    padding: 10px;
+}
+
+.tbl {
+    border-collapse: collapse;
+    width: 90%;
+    font-family: Tahoma, Arial, Serif;
+    border-radius:2px;
+    }
+     
+    .tbl td, th {
+        border: 1px solid silver;
+    }
+
+    .tbl tr{
+    text-align:center;
+    font-size:6vm;
+    color: rgb(92, 91, 91);
+    padding:10px;
+    background:white;
+    cursor: default;
+    font-weight:normal;
+        border: 1px solid silver; 
+        height: 50px;
+    }
+     
+    .tbl tr:hover{
+     transition: ease-out 0.07s;
+    color: #383838 ;
+    background: #FFFFCC;
+    }
+     
+    .tbl th {
+    font-size:6vm;
+    color:white;
+    padding:10px;
+    background:gray;
+    font-weight:normal;
+    border: 1px solid silver; 
+    border-bottom: 3px solid silver;
+    height: 50px;
+    }
+     
+     td a{
+        text-decoration: none;
+        color: rgb(77, 77, 246);
+     }
+
+     td a:hover{
+        color: red;
+     }
+     
