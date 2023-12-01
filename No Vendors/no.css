@@ -15,7 +15,6 @@
 .no-container{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
 }
 
 .tbl {
@@ -23,6 +22,7 @@
     width: 60%;
     font-family: Tahoma, Arial, Serif;
     border-radius:2px;
+    margin-bottom: 50px;
     }
      
     .tbl td, th {
