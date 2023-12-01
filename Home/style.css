@@ -1,4 +1,5 @@
 
+
 .title{
     text-align: center;
     font-size: 36px;
@@ -115,6 +116,11 @@
         scale: 1.05;
      }
 
+     .margin-calculator{
+        opacity: 0.5;
+        font-size: 12px;
+     }
+     
 
      footer{
         padding-top: 10%;
