@@ -68,7 +68,7 @@
     text-align:center;
     font-size:6vm;
     color: gray;
-    padding:10px;
+    padding:5px;
     background:white;
     font-weight:normal;
         border: 1px solid silver; 
@@ -121,6 +121,7 @@
      .margin-calculator{
         opacity: 0.5;
         font-size: 13px;
+        margin-bottom: -40px;
      }
      
 
@@ -130,7 +131,7 @@
         opacity: 0.8;
         width: 99%;
         justify-content: right;
-        margin-top: 150px;
+        margin-top: 180px;
     
      }
 
