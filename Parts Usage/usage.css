@@ -22,7 +22,7 @@
 
 .tbl {
     border-collapse: collapse;
-    width: 90%;
+    width: 70%;
     font-family: Tahoma, Arial, Serif;
     border-radius:2px;
     }
@@ -69,3 +69,8 @@
         color: red;
      }
      
+
+     .notes{
+        opacity: 0.7;
+        font-style: italic;
+     }
