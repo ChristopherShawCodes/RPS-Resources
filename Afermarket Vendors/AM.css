@@ -78,3 +78,8 @@
         padding-left: 7px;
         font-size: 18px;
      }
+
+     .email-button{
+        opacity: 0.7;
+        font-style: italic;
+     }
