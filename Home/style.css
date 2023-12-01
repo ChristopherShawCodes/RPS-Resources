@@ -5,7 +5,7 @@
 .title{
     text-align: center;
     font-size: 36px;
-    /* text-transform: uppercase; */
+    cursor: default;
     padding-top: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -136,7 +136,7 @@
 
      footer a, .list-link{
         text-decoration: none;
-        color: rgb(149, 147, 167);
+        color: rgb(98, 98, 100);
      }
 
      .list-link:hover{
