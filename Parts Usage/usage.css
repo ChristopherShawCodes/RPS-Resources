@@ -25,6 +25,7 @@
 
 .dependent, .provider{
     color:orange;
+    cursor: default;
 }
 
 .tbl {
@@ -78,4 +79,5 @@
      .notes{
         opacity: 0.7;
         font-style: italic;
+        cursor: default;
      }
