@@ -1,3 +1,9 @@
+*{
+   background-color: #33353f;
+   color: #eee;
+}
+
+
 .usage-title{
     text-align: center;
     font-size: 36px;
@@ -8,14 +14,13 @@
 .home{
     text-decoration: none;
     font-size: 30px;
-    color: Grey;
+    color: orange;
     padding: 10px;
 }
 
 .no-container{
     display: flex;
     justify-content: center;
-    /* margin-top: 50px; */
 }
 
 .tbl {
@@ -31,32 +36,27 @@
     }
 
     .tbl tr{
-    text-align:center;
-    font-size:6vm;
-    color: gray;
-    padding: 10px;
-    background:white;
-    font-weight:normal;
-        border: 1px solid silver; 
-        height: 50px;
-    }
-     
-    .tbl tr:hover{
-     transition: ease-out 0.07s;
-    color: #383838 ;
-    background: #FFFFCC;
-    }
-     
-    .tbl th {
-    font-size:6vm;
-    color:white;
-    padding:10px;
-    background:gray;
-    font-weight:normal;
-    border: 1px solid silver; 
-    border-bottom: 3px solid silver;
-    height: 50px;
-    }
+      text-align:center;
+      font-size:6vm;
+      padding:5px;
+      background:white;
+      font-weight:normal;
+          border: 1px solid silver; 
+          height: 50px;}
+       
+       
+      .tbl th {
+      font-size:6vm;
+      color:black;
+      padding:10px;
+      background:orange;
+      opacity: 0.8;
+      font-weight:normal;
+      border: 1px solid silver; 
+      border-bottom: 3px solid silver;
+      height: 50px;
+      }
+       
      
      td a{
         text-decoration: none;
@@ -67,7 +67,7 @@
         padding: 2px;
      }
      .vendor{
-        background-color: #FFFFCC;
+        color: orange;
         cursor: default;
      }
 
@@ -84,4 +84,14 @@
      .email-button{
         opacity: 0.7;
         font-style: italic;
+        color: orange;
+     }
+
+     .email-button:hover{
+      color: rgb(234, 222, 53);
+      opacity: 1;
+     }
+
+     .GP{
+      color: orange;
      }

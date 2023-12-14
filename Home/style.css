@@ -94,8 +94,7 @@
     .tbl tr:hover{
      transition: ease-out 0.07s;
     color: #383838 ;
-    background: #FFFFCC;
-    /* background: orange; */
+    background: orange;
     }
      
     .tbl th {
