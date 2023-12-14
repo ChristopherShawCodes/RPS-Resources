@@ -104,6 +104,7 @@
     color:black;
     padding:10px;
     background:orange;
+    opacity: 0.8;
     font-weight:normal;
     border: 1px solid silver; 
     border-bottom: 3px solid silver;
@@ -128,15 +129,16 @@
      .main-list a{
         padding-top: 10px;
         padding-bottom: 10px;
-        font-size: 18px;
+        font-size: 20px;
         text-decoration: none;
-        /* color: grey; */
+        opacity: 0.9;
         color: orange;
      }
 
      .main-list a:hover{
         background-color: rgba(0, 191, 255, 0.279);
         scale: 1.2;
+        opacity: 1;
 
      }
 
@@ -170,4 +172,9 @@
      .list-link:hover{
         color: rgb(234, 222, 53);
         opacity: 1;
+     }
+
+     .tech{
+        cursor: not-allowed;
+    
      }
