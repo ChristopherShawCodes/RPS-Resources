@@ -1,3 +1,10 @@
+
+*{
+    background-color: #33353f;
+    color: #eee;
+}
+
+
 .usage-title{
     text-align: center;
     font-size: 36px;
@@ -30,31 +37,28 @@
     }
 
     .tbl tr{
-    text-align:center;
-    font-size:6vm;
-    color: gray;
-    padding:10px;
-    background:white;
-    font-weight:normal;
+        text-align:center;
+        font-size:6vm;
+        color: gray;
+        padding:5px;
+        background:white;
+        font-weight:normal;
+            border: 1px solid silver; 
+            height: 50px;}
+         
+
+         
+        .tbl th {
+        font-size:6vm;
+        color:black;
+        padding:10px;
+        background:orange;
+        opacity: 0.8;
+        font-weight:normal;
         border: 1px solid silver; 
-        height: 50px;}
-     
-    .tbl tr:hover{
-     transition: ease-out 0.07s;
-    color: #383838 ;
-    background: #FFFFCC;
-    }
-     
-    .tbl th {
-    font-size:6vm;
-    color:white;
-    padding:10px;
-    background:gray;
-    font-weight:normal;
-    border: 1px solid silver; 
-    border-bottom: 3px solid silver;
-    height: 50px;
-    }
+        border-bottom: 3px solid silver;
+        height: 50px;
+        }
      
      td a{
         text-decoration: none;
@@ -64,7 +68,7 @@
         cursor: default;
      }
      .vendor{
-        background-color: #FFFFCC;
+        color: orange;
         cursor: default;
      }
 
