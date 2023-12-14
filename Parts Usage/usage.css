@@ -64,12 +64,14 @@
      
      td a{
         text-decoration: none;
-        color: rgb(234, 222, 53);
+        color: white;
         opacity: 0.6;
      }
 
      td a:hover{
-        color: red;
+        scale: 1.1;
+        opacity: 1;
+        color: rgb(234, 222, 53);
      }
      
 
