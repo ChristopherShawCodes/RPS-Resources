@@ -46,18 +46,19 @@
        
        
       .tbl th {
-      font-size:6vm;
+      font-size:8vm;
       color:black;
       padding:10px;
       background:orange;
-      opacity: 0.7;
+      opacity: 0.8;
+      font-weight: bold;
       font-weight:normal;
       border: 1px solid silver; 
       border-bottom: 3px solid silver;
       height: 50px;
       }
        
-     
+
      td a{
         text-decoration: none;
      }
