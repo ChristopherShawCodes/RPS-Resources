@@ -1,5 +1,4 @@
 *{
-    /* overflow: hidden; */
     background-color: #33353f;
     color: #eee;
 }
@@ -38,11 +37,9 @@
 
 .tbl {
     border-collapse: collapse;
-    /* border-style : hidden!important; */
     width: 95%;
     font-family: Tahoma, Arial, Serif;
     border-radius:2px;
-
     }
      
     .tbl td, th {
@@ -78,8 +75,10 @@
 
     .tbl img:hover{
         scale: 0.9;
-        border-radius: 20%;
+        border-radius: 10%;
+        border: 2px solid red;
         transition: ease-out 5s;
+        
     }
 
     .tbl tr{
