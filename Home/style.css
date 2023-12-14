@@ -1,6 +1,7 @@
 *{
     /* overflow: hidden; */
-    /* background-color: #1e253e; */
+    background-color: #33353f;
+    color: #eee;
 }
 
 .wrapper{
@@ -9,17 +10,19 @@
 
 .title{
     text-align: center;
-    font-size: 36px;
+    font-size: 40px;
+    opacity: 0.7;
     cursor: default;
     padding-top: 50px;
     font-weight: 300;
+    text-decoration: underline;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .home{
     text-decoration: none;
     font-size: 30px;
-    color: Grey;
+    color: orange;
     padding: 10px;
 }
 
@@ -57,6 +60,10 @@
         cursor: default;
     }
 
+   .location{
+    padding: 20px;
+   }
+
     .logo-box{
         overflow-x: scroll;
         overflow-y: hidden;
@@ -89,13 +96,14 @@
      transition: ease-out 0.07s;
     color: #383838 ;
     background: #FFFFCC;
+    /* background: orange; */
     }
      
     .tbl th {
     font-size:6vm;
-    color:white;
+    color:black;
     padding:10px;
-    background:gray;
+    background:orange;
     font-weight:normal;
     border: 1px solid silver; 
     border-bottom: 3px solid silver;
@@ -120,13 +128,16 @@
      .main-list a{
         padding-top: 10px;
         padding-bottom: 10px;
+        font-size: 18px;
         text-decoration: none;
-        color: grey;
+        /* color: grey; */
+        color: orange;
      }
 
      .main-list a:hover{
-        background: #FFFFCC;
-        scale: 1.05;
+        background-color: rgba(0, 191, 255, 0.279);
+        scale: 1.2;
+
      }
 
      .margin-calculator{
@@ -148,9 +159,15 @@
 
      footer a, .list-link{
         text-decoration: none;
-        color: rgb(98, 98, 100);
+        color: orange;
+     }
+
+     .list-link{
+        padding: 10px;
+        opacity: 0.7;
      }
 
      .list-link:hover{
-        color: rgb(234, 53, 53);
+        color: rgb(234, 222, 53);
+        opacity: 1;
      }
