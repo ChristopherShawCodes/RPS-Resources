@@ -79,5 +79,6 @@
      .reference-link a{
         text-decoration: none;
         padding-left: 7px;
-        font-size: 18px;
+        color: orange;
+        font-size: 20px;
      }
