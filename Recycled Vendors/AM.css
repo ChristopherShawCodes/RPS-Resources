@@ -1,0 +1,99 @@
+*{
+   background-color: #33353f;
+   color: #eee;
+}
+
+
+.usage-title{
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.home{
+    text-decoration: none;
+    font-size: 30px;
+    color: orange;
+    padding: 10px;
+}
+
+.no-container{
+    display: flex;
+    justify-content: center;
+}
+
+.tbl {
+    border-collapse: collapse;
+    width: 85%;
+    font-family: Tahoma, Arial, Serif;
+    border-radius:2px;
+    margin-bottom: 20%;
+    }
+     
+    .tbl td, th {
+        border: 1px solid silver;
+    }
+
+    .tbl tr{
+      text-align:center;
+      font-size:6vm;
+      padding:5px;
+      background:white;
+      font-weight:normal;
+          border: 1px solid silver; 
+          height: 50px;}
+       
+       
+      .tbl th {
+      font-size:8vm;
+      color:black;
+      padding:10px;
+      background:orange;
+      opacity: 0.8;
+      font-weight: bold;
+      font-weight:normal;
+      border: 1px solid silver; 
+      border-bottom: 3px solid silver;
+      height: 50px;
+      }
+       
+
+     td a{
+        text-decoration: none;
+     }
+     
+     p{
+        cursor: default;
+        padding: 2px;
+     }
+     .vendor{
+        color: orange;
+        cursor: default;
+     }
+
+     .reference-link{
+        text-align: center;
+     }
+
+     .reference-link a{
+        text-decoration: none;
+        padding-left: 7px;
+        font-size: 18px;
+     }
+
+     .email-button{
+        opacity: 0.7;
+        font-style: italic;
+        color: orange;
+     }
+
+     .email-button:hover{
+      color: rgb(234, 222, 53);
+      opacity: 1;
+     }
+
+     .GP{
+      color: orange;
+      cursor: default;
+     }
