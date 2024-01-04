@@ -69,3 +69,12 @@
         color:orange;
         cursor: default;
      }
+
+     .open-link{
+        color:orange;
+     }
+
+     .open-link:hover{
+        color: #fff;
+        font-size: large;
+     }
