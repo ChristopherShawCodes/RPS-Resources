@@ -127,8 +127,7 @@
      }
 
      .main-list a{
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
         font-size: 20px;
         text-decoration: none;
         opacity: 0.9;
@@ -145,7 +144,7 @@
      .margin-calculator{
         opacity: 0.5;
         font-size: 13px;
-        margin-bottom: -20px;
+        margin-bottom: -10px;
      }
      
 
